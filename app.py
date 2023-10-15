@@ -107,5 +107,5 @@ def account(account: str):
 
 if __name__ == "__main__":
     # Check if database exists here
-    # Base.metadata.create_all(engine)
+    Base.metadata.create_all(engine)
     app()
